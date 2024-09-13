@@ -1,0 +1,73 @@
+{
+  "posts": [
+    {
+      "Name": "thirupathi ",
+      "title": "the update oparetors",
+      "body": "using react we can update data using put method",
+      "id": 9
+    },
+    {
+      "Name": "bhaskerreddy",
+      "title": "routes using --routes.",
+      "body": " Add _start and _end or _limit (an X-Total-Count header is included in the response)",
+      "acceptTerms": true,
+      "id": 11
+    }
+  ],
+  "student": [
+    {
+      "firstName": "thirupathi",
+      "lastName": "Reddy",
+      "dateofbirth": "1997-12-07",
+      "number": "9177483842",
+      "address": "jhvjhftfyufd",
+      "collegeName": "weklfjiofiyfi8yfre7iyer7if",
+      "quelification": "b.tech",
+      "email": "kaiputhirupathireddy62@gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "acceptTerms": true,
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "productId": "2",
+      "productName": "apple",
+      "price": "50",
+      "quelity": "10000",
+      "acceptTerms": true,
+      "id": 2
+    },
+    {
+      "productId": "3",
+      "productName": "bannana",
+      "price": "20",
+      "quelity": "50",
+      "acceptTerms": true,
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "fullName": "thirupati",
+      "userName": "thirupathi",
+      "number": "9177483842",
+      "email": "kaiputhirupathireddy62@gmail.com",
+      "password": "123456789",
+      "confirmPassword": "123456789",
+      "acceptTerms": true,
+      "id": 1
+    },
+    {
+      "fullName": "thirupati",
+      "userName": "thirupathi",
+      "number": "9177483842",
+      "email": "kaiputhirupathireddy@gmail.com",
+      "password": "123456789",
+      "confirmPassword": "123456789",
+      "acceptTerms": true,
+      "id": 4
+    }
+  ]
+}

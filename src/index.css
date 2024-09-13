@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.submitBtn {
+  margin-top: 30px;
+  align-self: flex-start;
+  padding: 5px 15px;
+  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.inputBox {
+
+  position: relative;
+
+  width: 250px;
+
+}
+
+.inputBox input {
+
+  width: 100%;
+
+  padding: 10px;
+
+  border: 1px solid rgb(255, 255, 255, 0.7);
+
+  background: rgb(50, 62, 85);
+
+  border-radius: 5px;
+
+  outline: none;
+
+  color: #fff;
+
+  font-size: 1em;
+
+  transition: 0.5s;
+
+}
+
+.inputBox span {
+
+  position: absolute;
+
+  left: 0;
+
+  padding: 10px;
+
+  pointer-events: none;
+
+  font-size: 1.1em;
+
+  letter-spacing: 0.2em;
+
+  color: rgba(255, 255, 255, 0.7);
+
+  text-transform: uppercase;
+
+  transition: 0.5s;
+
+}
+
+.inputBox input:valid ~ span,
+
+.inputBox input:focus ~ span {
+
+  color: #75e44f;
+
+  transform: translateX(10px) translateY(-7px);
+
+  font-size: 0.65em;
+
+  padding: 0 10px;
+
+  background: rgb(50, 62, 85);
+
+  border-left: 1px solid #75e44f;
+
+  border-right: 1px solid #75e44f;
+
+  letter-spacing: 0.2em;
+
+}
+
+.inputBox:nth-child(2) input:valid ~ span,
+
+.inputBox:nth-child(2) input:focus ~ span {
+
+  background: #75e44f;
+
+  color: rgb(50, 62, 85);
+
+  border-radius: 2px;
+
+}
+
+.inputBox input:valid,
+
+.inputBox input:focus {
+
+  border: 1px solid #75e44f;
+
+}
